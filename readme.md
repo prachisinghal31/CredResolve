@@ -213,27 +213,27 @@ POST /balances/settle
 
 ### ⚙️ Internal Design Decisions
 
-Balances are stored incrementally for accuracy
+- Balances are stored incrementally for accuracy
 
-Simplification is a separate step, not automatic
+- Simplification is a separate step, not automatic
 
-Uses net flow algorithm to minimize transactions
+- Uses net flow algorithm to minimize transactions
 
-Route ordering avoids dynamic route conflicts (e.g. /settle vs /:userId)
+- Route ordering avoids dynamic route conflicts (e.g. /settle vs /:userId)
 
 ### 🔮 Possible Improvements
 
-Per-group balance simplification
+- Per-group balance simplification
 
-Authentication & authorization
+- Authentication & authorization
 
-Expense editing & deletion
+- Expense editing & deletion
 
-Currency support
+- Currency support
 
-Transaction history
+- Transaction history
 
-Unit tests
+- Unit tests
 
 ### ✅ Status
 
