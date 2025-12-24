@@ -94,47 +94,47 @@ Server running on port 3000
 ### 🧠 Core Features
 ## ✅ Users
 
-Create users
+- Create users
 
-List all users
+- List all users
 
 ## ✅ Groups
 
-Create groups
+- Create groups
 
-Add members to groups
+- Add members to groups
 
 ## ✅ Expenses
 
-Supports 3 split types:
+- Supports 3 split types:
 
-Equal split
+- Equal split
 
-Exact amount split
+- Exact amount split
 
-Percentage split
+- Percentage split
 
 ## ✅ Balance Tracking
 
-Tracks who owes whom
+- Tracks who owes whom
 
-Shows:
+- Shows:
 
-How much a user owes
+  How much a user owes
 
-How much others owe the user
+  How much others owe the user
 
 ## ✅ Balance Simplification
 
-Minimizes number of transactions
+- Minimizes number of transactions
 
-Computes net balances across all users
+- Computes net balances across all users
 
 ## ✅ Settlement
 
-Allows users to settle dues
+- Allows users to settle dues
 
-Reduces outstanding balances
+- Reduces outstanding balances
 
 ### 🔗 API Endpoints
 ## 👤 Users
@@ -192,17 +192,17 @@ POST /expenses
 ```
 ## Check User Balance
 
-GET /balances/USER_ID
+- **GET /balances/USER_ID**
 
-Simplify Balances
+  Simplify Balances
 
-POST /balances/simplify
+- **POST /balances/simplify**
 
-No request body required
+  No request body required
 
-Settle Balance
+  Settle Balance
 
-POST /balances/settle
+- **POST /balances/settle**
 ```
 {
   "from": "USER_ID_2",
